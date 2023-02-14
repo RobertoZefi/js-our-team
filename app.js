@@ -36,6 +36,8 @@ const team = [
     }
 ]
 
+const divString = document.getElementById('string')
+
 for (let key in team){
     let teamPerson = team[key]
     console.log(teamPerson)
@@ -45,5 +47,9 @@ for (let key in team){
     let foto = teamPerson.foto
     console.log(nome, ruolo, foto)
 
-    
+    let string = `
+        <div>${nome}, ${ruolo}, ${foto}</div>
+    `
+
+    divString.innerHTML += string
 }
