@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: #F5F5F1;
+}
+
+#string{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    row-gap: 50px;
+    gap: 30px;
+}
+
+.card{
+    flex-basis: calc(100% / 3 - 60px / 3);
+    text-align: center;
+    background-color: white;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+.card__description{
+    padding: 15px;
+    color: gray;
+}
+
+.name{
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.ruolo{
+    font-size: 17px;
+}
+
+.introduction{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.introduction__title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.introduction__subtitle{
+    color: gray;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
